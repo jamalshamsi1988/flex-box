@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* display: flex; */
+ .container{
+    background: gray;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap:wrap; */
+} 
+
+/* justify-content */
+/* .container{
+    height: 400px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+} */
+
+/* align-items || align-content */
+ /* .container{
+    height: 300px;
+    background: gray;
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center; 
+    
+} */
+
+
+.child{
+    background: #fff;
+    margin: 10px;
+    height: 20px;
+}
